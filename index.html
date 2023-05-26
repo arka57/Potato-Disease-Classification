@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"
+    </head>
+    <title>
+        Potato Disease Prediction
+        
+    </title>
+    <body>
+        <h1>Potato</h1>
+        
+        <p>
+            {{result}}
+        </p>
+        
+        <form method="post" action="/predict" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input type="submit" name="Predict">
+        </form>
+    </body>
+</html>
